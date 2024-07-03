@@ -1,0 +1,65 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.add-player, .player-list, .player-status {
+  margin: 20px;
+}
+
+.add-player input, .player-status button {
+  margin: 5px;
+  padding: 10px;
+}
+
+.player-list ul, .player-status ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e53935;
+}
+
+
+.player-list li, .player-status li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-list button, .player-status button {
+  margin-left: 10px;
+}
+
+.player-status .active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.error {
+  color: red;
+}
